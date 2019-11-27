@@ -70,6 +70,25 @@ export default class Setting extends BaseWidgetSetting<
             })}
           >
             <SettingRow>
+              <div className="w-100 showZoom">
+                <div className="checkbox-row">
+                  <label>
+                    <FormattedMessage
+                      id="showZoom"
+                      defaultMessage={defaultI18nMessages.showZoom}
+                    />
+                  </label>
+                  <Switch
+                    checked={
+                      (this.props.config && this.props.config.showZoom) || false
+                    }
+                    onChange={this.onShowZoomPropertyChange}
+                  />
+                </div>
+              </div>
+            </SettingRow>
+
+            <SettingRow>
               <div className="w-100 showScale">
                 <div className="checkbox-row">
                   <label>
@@ -84,25 +103,6 @@ export default class Setting extends BaseWidgetSetting<
                       false
                     }
                     onChange={this.onShowScalePropertyChange}
-                  />
-                </div>
-              </div>
-            </SettingRow>
-
-            <SettingRow>
-              <div className="w-100 showZoom">
-                <div className="checkbox-row">
-                  <label>
-                    <FormattedMessage
-                      id="showZoom"
-                      defaultMessage={defaultI18nMessages.showZoom}
-                    />
-                  </label>
-                  <Switch
-                    checked={
-                      (this.props.config && this.props.config.showZoom) || false
-                    }
-                    onChange={this.onShowZoomPropertyChange}
                   />
                 </div>
               </div>

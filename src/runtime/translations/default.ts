@@ -1,3 +1,5 @@
 export default {
-  _widgetLabel: "Get Map Coordinates"
+  _widgetLabel: "Get Map Coordinates",
+  latLon: "Lat/Lon",
+  zoom: "Zoom"
 };
