@@ -89,10 +89,8 @@ export default class Widget extends BaseWidget<
         : [...previousValue, " | ", currentValue];
     }, null);
 
-    console.log("allSections", allSections);
-
     return (
-      <div className="widget-get-map-coordinates jimu-widget">
+      <div className="widget-get-map-coordinates jimu-widget m-2">
         {this.props.hasOwnProperty("useMapWidgetIds") &&
           this.props.useMapWidgetIds &&
           this.props.useMapWidgetIds.length === 1 && (
@@ -103,7 +101,7 @@ export default class Widget extends BaseWidget<
           )}
 
         {/* Only show the data once the MapView is ready */}
-        {this.state.mapViewReady === true && <p>{allSections}</p>}
+        <p>{this.state.mapViewReady === true ? allSections : defaultMessages.latLonWillBeHere}</p>
       </div>
     );
   }

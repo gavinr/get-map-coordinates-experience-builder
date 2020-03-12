@@ -1,18 +1,6 @@
 {
-  "name": "get-map-coordinates",
-  "type": "widget",
-  "version": "1.0.0",
-  "exbVersion": "1.0.0-beta.2",
-  "author": "Gavin Rehkemper, Esri",
-  "description": "Example Experience Builder widget showing how to display the latitude and longitude, scale, and zoom level of the map.",
-  "copyright": "",
-  "license": "http://www.apache.org/licenses/LICENSE-2.0",
-  "properties": {},
-  "supportedLocales": [
-    "en"
-  ],
-  "defaultSize": {
-    "width": 800,
-    "height": 500
-  }
+  "name": "get-map-coordinates-experience-builder",
+  "type": "exb-web-extension-repo",
+  "description": "This is a extension repository that contains the get-map-coordinates widget.",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0"
 }
