@@ -57,7 +57,10 @@ export default class Widget extends BaseWidget<
         });
         this.setState({
           latitude: point.latitude.toFixed(3),
-          longitude: point.longitude.toFixed(3)
+          longitude: point.longitude.toFixed(3),
+          scale: Math.round(this.state.jimuMapView.view.scale * 1) / 1,
+          zoom: this.state.jimuMapView.view.zoom,
+          mapViewReady: true
         });
       });
     }
