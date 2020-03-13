@@ -2,7 +2,7 @@
 
 Example Experience Builder widget showing how to display the latitude and longitude, scale, and zoom level of the map.
 
-[![Screenshot](https://github.com/gavinr/get-map-coordinates-experience-builder/raw/master/get-map-coordinates.gif)](https://github.com/gavinr/get-map-coordinates-experience-builder/raw/master/screencast-widget.mp4)
+[![Screenshot](https://github.com/gavinr/get-map-coordinates-experience-builder/raw/master/get-map-coordinates.gif)](https://gavinr.github.io/get-map-coordinates-experience-builder/)
 
 [(Settings Panel)](https://github.com/gavinr/get-map-coordinates-experience-builder/raw/master/screencast-settings.mp4)
 
@@ -10,7 +10,7 @@ Example Experience Builder widget showing how to display the latitude and longit
 
 1. [Download](https://developers.arcgis.com/downloads/apis-and-sdks?product=arcgis-experience-builder) and unzip [Experience Builder Developer Edition](https://developers.arcgis.com/experience-builder/).
 2. Download the latest [release](https://github.com/gavinr/get-map-coordinates-experience-builder/releases) from this repository.
-3. Unzip the downloaded files, and copy the `addLayers` folder into the `client\your-extensions\widgets\addLayers` folder of the extracted Experience Builder files.
+3. Unzip the downloaded files, and copy the `get-map-coordinates` folder into the `client\your-extensions\widgets\get-map-coordinates` folder of the extracted Experience Builder files.
 
 ## Quick Start - Git
 
