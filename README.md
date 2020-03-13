@@ -1,15 +1,28 @@
-# Get Map Coordinates
+# Get Map Coordinates - Experience Builder Widget
 
 Example Experience Builder widget showing how to display the latitude and longitude, scale, and zoom level of the map.
 
-[![Screenshot](https://github.com/gavinr/get-map-coordinates-experience-builder/raw/master/screenshot.png)](https://github.com/gavinr/get-map-coordinates-experience-builder/raw/master/screencast-widget.mp4)
+[![Screenshot](https://github.com/gavinr/get-map-coordinates-experience-builder/raw/master/get-map-coordinates.gif)](https://github.com/gavinr/get-map-coordinates-experience-builder/raw/master/screencast-widget.mp4)
 
 [(Settings Panel)](https://github.com/gavinr/get-map-coordinates-experience-builder/raw/master/screencast-settings.mp4)
 
-## Quick Start
+## Quick Start - Download
 
-1. [Download](https://github.com/gavinr/get-map-coordinates-experience-builder/archive/master.zip) the files from this repository
-2. Create a new folder in `client\your-extensions\widgets` named `get-map-coordinates`.
-3. Copy the files from this repository into that folder.
-4. Open a terminal to the `client` folder and run `npm start`
-5. Your widget is now available in the Experience Builder interface.
+1. [Download](https://developers.arcgis.com/downloads/apis-and-sdks?product=arcgis-experience-builder) and unzip [Experience Builder Developer Edition](https://developers.arcgis.com/experience-builder/).
+2. Download the latest [release](https://github.com/gavinr/get-map-coordinates-experience-builder/releases) from this repository.
+3. Unzip the downloaded files, and copy the `addLayers` folder into the `client\your-extensions\widgets\addLayers` folder of the extracted Experience Builder files.
+
+## Quick Start - Git
+
+1. [Download](https://developers.arcgis.com/downloads/apis-and-sdks?product=arcgis-experience-builder) and unzip [Experience Builder Developer Edition](https://developers.arcgis.com/experience-builder/).
+2. Open a new terminal window and browse to the `client` folder.
+3. `git clone https://github.com/gavinr/get-map-coordinates-experience-builder`
+4. `npm ci`
+5. `npm start`
+6. Start Experience Builder server per the instructions (in a separate terminal, `cd server`, `npm ci`, `npm start`)
+
+## Development
+
+1. Open the `client` folder as a project in VS Code (or similar code editor).
+1. Make sure *both* scripts are running (in the `server` folder and `client`) folder).
+1. Every time you make a change to your widget, it will be re-built with webpack automatically.

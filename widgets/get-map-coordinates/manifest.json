@@ -1,0 +1,18 @@
+{
+  "name": "get-map-coordinates",
+  "label": "Get Map Coordinates",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.0.0",
+  "author": "Gavin Rehkemper, Esri",
+  "description": "Example Experience Builder widget showing how to display the latitude and longitude, scale, and zoom level of the map.",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {},
+  "translatedLocales": [
+    "en"
+  ],
+  "defaultSize": {
+    "width": 400,
+    "height": 200
+  }
+}
