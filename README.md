@@ -29,4 +29,4 @@ Example Experience Builder widget showing how to display the latitude and longit
 
 ## More
 
-View my other Experience Builder projects [here](https://github.com/gavinr?tab=repositories&q=experience-builder)
+View my other Experience Builder projects [here](https://github.com/gavinr?tab=repositories&q=experience-builder).
