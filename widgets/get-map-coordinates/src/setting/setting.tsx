@@ -5,7 +5,7 @@ import {
   JimuMapViewSelector,
   SettingSection,
   SettingRow
-} from "jimu-ui/setting-components";
+} from "jimu-ui/advanced/setting-components";
 import { Switch } from "jimu-ui";
 import { IMConfig } from "../config";
 import defaultI18nMessages from "./translations/default";
