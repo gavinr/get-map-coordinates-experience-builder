@@ -1,3 +1,5 @@
+# This example widget moved to the official samples: https://developers.arcgis.com/experience-builder/sample-code/widgets/get-map-coordinates-function/
+
 # Get Map Coordinates - Experience Builder Widget
 
 Example Experience Builder widget showing how to display the latitude and longitude, scale, and zoom level of the map.
